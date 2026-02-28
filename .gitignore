@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Keys / secrets (do NOT upload)
+ca/ca_key.pem
+client/users/
+client/user_key.pem
+client/user_cert.pem
+server/tls/

@@ -1,0 +1,13 @@
+The following Python packages are required to run the system. Install using pip:
+
+cryptography==44.x
+flask==3.x
+
+All dependencies are part of the Python standard library except those listed above. The system was developed 
+and tested on Python 3.12 on Windows.
+
+
+
+
+
+

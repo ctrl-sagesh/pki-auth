@@ -1,0 +1,25 @@
+Step 1: 
+Initialize the CA (first time only)
+cd ca
+python ca_init.py
+
+Step 2: 
+Start the authentication server
+cd server
+python server.py
+
+Step 3: 
+Launch the client GUI
+cd client
+python gui_app.py
+
+Step 4: 
+Enroll → Issue → Copy cert → Login
+
+Enter username and passphrase in the Enroll tab, click Generate
+Run python ca/ca_issue.py in a separate terminal, enter the CSR and output paths
+Copy the issued cert to client/user_cert.pem
+Go to Login tab, enter passphrase, click Login
+
+
+
